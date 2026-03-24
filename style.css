@@ -118,3 +118,30 @@ select {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
+download-container {
+    margin: 10px 0 25px 0;
+}
+
+.btn-download {
+    display: inline-flex;
+    align-items: center;
+    background-color: #27ae60; /* A nice "Data" green */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-download i {
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+
+.btn-download:hover {
+    background-color: #219150;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
